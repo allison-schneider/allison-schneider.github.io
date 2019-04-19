@@ -12,7 +12,7 @@
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	</head>
-	<body class="is-preload">
+	<body class="is-preload" onload="window.scrollTo(0,document.body.scrollHeight);">
 
 		<!-- Wrapper -->
 			<div id="wrapper" class="fade-in">
@@ -48,51 +48,8 @@
 						<article class="post featured">
 							<header class="major">
 								<h1>RSVP</h1>
-								<p>Please respond by May 22, 2019</p>
+								<p>Thank you for your RSVP!</p>
 							</header>
-							<!-- Form -->
-							<script type="text/javascript">var submitted=false;</script>
-	    					<iframe name="hidden_iframe" 
-	    							id="hidden_iframe" 
-	    							style="display:none;"
-									onload="if(submitted) {
-										window.location='submitted.html';
-									}">	
-							</iframe>
-	      					<form action="https://docs.google.com/forms/d/e/1FAIpQLSf_v023782hHLSYrmQpBxMwe6DefM6OClgtgvVxScpEQ1AZFA/formResponse"
-										method="post"
-										target="hidden_iframe"
-										onsubmit="submitted=true;">
-								<div class="row gtr-uniform">
-									<div class="col-12">
-										<input type="text" name="entry.230398567" id="guests" value="" placeholder="Guest or Guests" />
-									</div>
-									<!-- Break -->
-									<div class="col-6 col-12-xsmall">
-										<input type="radio" name="entry.1518108005" id="attending-yes" value="Accepts with pleasure" checked/>
-										<label for="attending-yes">Accepts with pleasure</label>
-									</div>
-									<div class="col-6 col-12-xsmall">
-										<input type="radio" name="entry.1518108005" id="attending-no" value="Declines with regret"/>
-										<label for="attending-no">Declines with regret</label>
-									</div>
-									<!-- Break -->
-									<div class="col-12">
-										<input type="text" name="entry.1984878055" id="food" value="" placeholder="Please let us know about any dietary restrictions" />
-									</div>
-									<!-- Break -->
-									<div class="col-12">
-										<input type="text" name="entry.1984878055" id="food" value="" placeholder="Is there anything else you'd like to tell us?" />
-									</div>
-									<!-- Break -->
-									<div class="col-12">
-										<ul class="actions">
-											<li><input type="submit" value="Submit" class="primary" /></li>
-											<li><input type="reset" value="Reset" /></li>
-										</ul>
-									</div>
-								</div>
-							</form>
 						</article>
 					</div>
 
